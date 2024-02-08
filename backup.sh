@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Configure NAS
-nas_ip="192.168.178.210"
+nas_ip="192.168.1.xxx"
 
 # Directory to be copied
 source_dir="/home/data"
@@ -12,10 +12,10 @@ source_dir="/home/data"
 temp_dir="/home/Backup-"
 
 # Directory on the NAS
-target_dir="/volume1/Backups/Test"
+target_dir="/volume1/Backup"
 
 # Mountpoint on the System (the directory must exist!)
-mount_point="/home/mount"
+mount_point="/mnt/mount"
 
 # Variable for the Date
 date=$(date +%Y-%m-%d)
